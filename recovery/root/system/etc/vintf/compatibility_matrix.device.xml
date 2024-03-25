@@ -165,6 +165,22 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.focaltech.fingerprint</name>
+        <version>1.0</version>
+        <interface>
+            <name>IFocalFingerprintService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.focaltech.hardware.biometrics.fingerprint</name>
+        <version>1.0</version>
+        <interface>
+            <name>IFocalFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.focaltech.hardware.biometrics.fingerprint</name>
         <version>1.0</version>
         <interface>
@@ -499,6 +515,20 @@
             <instance>LoggerHidlServer</instance>
             <instance>MobileLogHidlServer</instance>
             <instance>ModemLogHidlServer</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.mediatek.hardware.mbrain</name>
+        <interface>
+            <name>IMBrain</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.mediatek.hardware.mbrainj</name>
+        <interface>
+            <name>IMBrainJava</name>
+            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -914,6 +944,14 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.sw.swfingerprint</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISwfingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.tesiai.hardware.hdcpconnection</name>
         <version>1.0</version>
         <interface>
@@ -946,6 +984,14 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.transsion.hardware.trandatacenter</name>
+        <version>1.0</version>
+        <interface>
+            <name>ITranDataCenter</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.transsion.hardware.tranlog</name>
         <version>1.0</version>
         <interface>
@@ -961,11 +1007,34 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.transsion.hardware.trannet</name>
+        <interface>
+            <name>ITranNet</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.transsion.hardware.transtorage.storage</name>
         <version>1.0</version>
         <interface>
             <name>IStorage</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.transsion.hardware.wifi.hostapd</name>
+        <version>1.0</version>
+        <interface>
+            <name>IHostapd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.transsion.performance.sched</name>
+        <version>1.0</version>
+        <interface>
+            <name>ITransSched</name>
             <instance>default</instance>
         </interface>
     </hal>
