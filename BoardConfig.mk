@@ -129,12 +129,12 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # TWRP Configuration
-TW_CUSTOM_CLOCK_POS := 40
-TW_CUSTOM_CPU_POS := 290
-TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone28/temp
+#TW_CUSTOM_CLOCK_POS := 40
+#TW_CUSTOM_CPU_POS := 290
+#TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone28/temp
 TW_DEFAULT_BRIGHTNESS := 2047
-TW_DEVICE_VERSION := ${shell git -C $(DEVICE_PATH) rev-parse --short HEAD}-Shivelight
-TW_EXCLUDE_APEX := true
+TW_DEVICE_VERSION := Massatrio16
+#TW_EXCLUDE_APEX := true
 TW_EXTRA_LANGUAGES := true
 TW_HAS_NO_RECOVERY_PARTITION := true
 TW_INCLUDE_FASTBOOTD := true
@@ -145,7 +145,7 @@ TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
 TARGET_USES_MKE2FS := true
-TW_FRAMERATE := 60
+#TW_FRAMERATE := 60
 
 # Tools
 TW_INCLUDE_FUSE_EXFAT := true
